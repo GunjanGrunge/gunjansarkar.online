@@ -1,4 +1,91 @@
-.images {
-  background-repeat: no-repeat;
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Ubuntu+Mono:wght@400;700&display=swap');
+
+  /* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu Mono', monospace; */
+
+  body{
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+  }
+
+  h1{color: #ddd;
  }
 
+  .HeadSection {
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 700;
+    margin: auto;
+}
+  .GroupofList {
+    color: white;
+    /* border: 2px solid green; */
+    display: flex;
+    list-style: none;
+    width: 31%;
+    justify-content: space-around;
+    -ms-flex-align: end;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hero {
+  display: inline-flex;
+  align-items: center;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: white;
+font-size: 60px;}
+
+.heroline {
+  color: #007bff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+font-size: 20px;
+}
+
+
+.her img{
+  width: 20px;
+}
+.ham{
+  display: none;
+}
+
+.Skillsbox li{
+  list-style: none;
+  display: inline-flex;
+  color: white;
+  margin: 15px;
+}
+.Skillsbox li img{
+  width: 60px;
+}
+
+.expsBox
+{
+  list-style: none;
+  display: inline-flex;
+  color: white;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: auto;
+}
+.expsBox li{
+  list-style: none;
+  display: inline-flex;
+  font-size: xx-large;
+  border-radius: 13px;
+  padding: 4px;
+  text-align: center;
+  align-content: center;
+  margin: 20px;
+  
+}
