@@ -9,7 +9,8 @@ font-family: 'Ubuntu Mono', monospace; */
     background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
   }
 
-  h1{color: #ddd;}
+  h1{color: #ddd;
+ }
 
   .HeadSection {
     display: flex;
@@ -36,6 +37,7 @@ font-family: 'Ubuntu Mono', monospace; */
   display: inline-flex;
   align-items: center;
 }
+
 h2{
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
@@ -43,11 +45,10 @@ h2{
 font-size: 60px;}
 
 .heroline {
-  color: cadetblue;
+  color: #007bff;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
 font-size: 20px;
-margin-top: -44px;
 }
 
 
