@@ -20,6 +20,7 @@ font-family: 'Ubuntu Mono', monospace; */
     font-family: 'Ubuntu Mono', monospace;
     font-weight: 700;
     margin: auto;
+  
 }
   .GroupofList {
     color: white;
@@ -31,7 +32,9 @@ font-family: 'Ubuntu Mono', monospace; */
     -ms-flex-align: end;
     flex-direction: row;
     align-items: center;
+    position: sticky;
 }
+
 
 .hero {
   display: inline-flex;
@@ -59,14 +62,19 @@ font-size: 20px;
   display: none;
 }
 
+.Skillsbox{
+  margin: auto;
+  padding-left: 100px;
+}
 .Skillsbox li{
   list-style: none;
   display: inline-flex;
   color: white;
-  margin: 15px;
+  margin: 5%;
+  height: 30%;
 }
 .Skillsbox li img{
-  width: 60px;
+  width: 90px;
 }
 
 .expsBox
@@ -88,4 +96,23 @@ font-size: 20px;
   align-content: center;
   margin: 20px;
   
+}
+
+.cards {
+  display: flex;
+  padding:2%;
+  justify-content: space-evenly;
+}
+
+.cards > div{
+  align-items: center;
+  font-size: large;
+}
+
+.cards > div > h4{
+ color: whitesmoke;
+}
+
+.items > a >i{
+  color: black;
 }
